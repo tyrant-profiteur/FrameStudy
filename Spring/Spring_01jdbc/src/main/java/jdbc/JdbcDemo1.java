@@ -8,6 +8,14 @@ import java.sql.ResultSet;
 /**
  * @author:profiteur
  * @create 2020-01-21 21:22
+ * 程序的耦合：
+ *  耦合：程序间的依赖关系
+ *      类之间的依赖
+ *      方法间的依赖
+ *  解耦：
+ *      降低程序间的依赖关系
+ *  实际开发中：
+ *      做到编译期不依赖，运行时才依赖
  **/
 public class JdbcDemo1 {
     public static void main(String[] args) throws Exception{
