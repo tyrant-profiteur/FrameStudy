@@ -1,4 +1,6 @@
-package dao;
+package dao.Impl;
+
+import dao.IAccountDao;
 
 /**
  * 账户的持久层实现类
