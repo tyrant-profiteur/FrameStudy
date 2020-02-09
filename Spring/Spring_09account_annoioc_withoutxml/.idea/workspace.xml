@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="312b1824-4d9f-4751-9bd5-b9a29810bbd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/DevelopmentTools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\DevelopmentTools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1XYlO2apUhaARtzWL5SNRbZbCuJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring_06anno_ioc" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll">
+    <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_09account_annoioc_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.test" />
+      <option name="MAIN_CLASS_NAME" value="project.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_09account_annoioc_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.test" />
+      <option name="MAIN_CLASS_NAME" value="project.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="312b1824-4d9f-4751-9bd5-b9a29810bbd4" name="Default Changelist" comment="" />
+      <created>1581230872842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581230872842</updated>
+      <workItem from="1581230880095" duration="9592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="122" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581248141160">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="122" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1581248141160" />
+    <state x="164" y="269" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581248515161">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="164" y="269" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1581248515161" />
+    <state x="430" y="229" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581248516218">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="430" y="229" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1581248516218" />
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581233395196">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581233395196" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1581253200267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581253200267" />
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1581253540533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581253540533" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1581253540533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581253540533" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1581253540533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581253540533" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1581253540533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581253540533" />
+    <state x="28" y="45" key="new project wizard" timestamp="1581253538522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="45" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1581253538522" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1581230887091">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581230887091" />
+  </component>
+</project>

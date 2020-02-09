@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2ea4f9d-928d-4464-8579-03af51c69601" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="tyrant_profiteur &lt;674389994@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/DevelopmentTools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\DevelopmentTools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1XHgbztC71xpoEYFOz8kVRkH3Mi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="service.Impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Client" />
+      <module name="Spring_05DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2ea4f9d-928d-4464-8579-03af51c69601" name="Default Changelist" comment="" />
+      <created>1580708509511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580708509511</updated>
+      <workItem from="1580708516078" duration="9483000" />
+      <workItem from="1581227882118" duration="23000" />
+      <workItem from="1581253235370" duration="54000" />
+    </task>
+    <task id="LOCAL-00001" summary="黑马Spring_day01">
+      <created>1580721244423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580721244423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="黑马Spring_day01" />
+    <option name="LAST_COMMIT_MESSAGE" value="黑马Spring_day01" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1580719909398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1580719909398" />
+    <state x="210" y="0" key="CommitChangelistDialog2" timestamp="1580721243483">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="210" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580721243483" />
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1580738754193">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580738754193" />
+    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1580738754193">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580738754193" />
+    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1580738754193">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580738754193" />
+    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1580738754193">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580738754193" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1580721494229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1580721494229" />
+  </component>
+</project>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3a2682e-6ba9-431e-869b-e2702d1891c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/DevelopmentTools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\DevelopmentTools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1XYjUCAWfGIn9lwHcwt0W6XY6rC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_08account_annoioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.test" />
+      <option name="MAIN_CLASS_NAME" value="project.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3a2682e-6ba9-431e-869b-e2702d1891c9" name="Default Changelist" comment="" />
+      <created>1581229935283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581229935283</updated>
+      <workItem from="1581229940728" duration="23000" />
+      <workItem from="1581230075795" duration="749000" />
+      <workItem from="1581252044322" duration="334000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1581252384574">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581252384574" />
+    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1581252384574">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581252384574" />
+    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1581252384573">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581252384573" />
+    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1581252384574">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581252384574" />
+  </component>
+</project>

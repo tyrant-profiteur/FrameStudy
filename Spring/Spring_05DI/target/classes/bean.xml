@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <!--把对象的创建交给Spring来管理-->
+
+    <!--构造函数注入-->
+    <bean id="accountServiceConstructor" class="service.Impl.AccountServiceImplConstructor">
+        <!--        <constructor-arg type="java.lang.String" value="test"></constructor-arg>-->
+        <constructor-arg name="name" value="test"></constructor-arg>
+        <constructor-arg name="age" value="18"></constructor-arg>
+        <constructor-arg name="birthday" ref="now"></constructor-arg>
+    </bean>
+<!--    配置一个日期对象-->
+    <bean id="now" class="java.util.Date">
+        <constructor-arg value="1999/01/01"></constructor-arg>
+    </bean>
+
+<!--set方式注入-->
+    <bean id="accountServiceSet" class="service.Impl.AccountServiceImplSet">
+        <property name="name" value="test"></property>
+        <property name="age" value="18"></property>
+        <property name="birthday" value="2000/01/01"></property>
+    </bean>
+
+<!--复杂的类型/集合类型注入-->
+    <bean id="accountServiceComplex" class="service.Impl.AccountServiceImplComplex">
+        <property name="myStrs">
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </array>
+        </property>
+        <property name="myList">
+            <list>
+                <value>AAA1</value>
+                <value>BBB1</value>
+                <value>CCC1</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <list>
+                <value>AAA1</value>
+                <value>BBB1</value>
+                <value>CCC1</value>
+            </list>
+        </property>
+        <property name="myMap">
+            <props>
+                <prop key="testC">CCC</prop>
+                <prop key="testD">DDD</prop>
+            </props>
+        </property>
+        <property name="properties">
+            <map>
+                <entry key="testA" value="AAA"></entry>
+                <entry key="testB">
+                    <value>BBB</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+</beans>
