@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ea4f9d-928d-4464-8579-03af51c69601" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/ui/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring_06anno_ioc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -126,6 +110,7 @@
       <workItem from="1580708516078" duration="9483000" />
       <workItem from="1581227882118" duration="23000" />
       <workItem from="1581253235370" duration="54000" />
+      <workItem from="1581300529965" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="黑马Spring_day01">
       <created>1580721244423</created>
@@ -154,6 +139,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="210" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580721243483" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1581300545505">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581300545505" />
     <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1580738754193">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

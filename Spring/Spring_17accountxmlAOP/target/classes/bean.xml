@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--xml配置-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="project"/>
+    <!--    配置AOP-->
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* project.service.impl.*.*(..))"/>
+        <aop:aspect id="accountAspect" ref="transactionManager">
+            <aop:before method="begin" pointcut-ref="pt1"></aop:before>
+            <aop:after-returning method="commit" pointcut-ref="pt1"></aop:after-returning>
+            <aop:after-throwing method="rollback" pointcut-ref="pt1"></aop:after-throwing>
+            <aop:after method="release" pointcut-ref="pt1"></aop:after>
+        </aop:aspect>
+    </aop:config>
+
+
+    <!--    配置QueryRunner对象-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+    </bean>
+    <!--    配置数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--连接数据库的必备信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/heima_springstudy"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+</beans>
+

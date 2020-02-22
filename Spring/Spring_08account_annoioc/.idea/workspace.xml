@@ -2,30 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3a2682e-6ba9-431e-869b-e2702d1891c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/dao/Impl/AccountDaoImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/java/project/ui/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_06anno_ioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/dao/Impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_07account_xmlioc/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/service/impl/AccountServiceImplOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/utils/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/java/project/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_11account/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_12proxy/src/main/java/cglib/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_12proxy/src/main/java/cglib/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_12proxy/src/main/java/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_12proxy/src/main/java/proxy/IProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_12proxy/src/main/java/proxy/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_13SpringAOP/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_13SpringAOP/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_13SpringAOP/src/main/java/project/utils/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_13SpringAOP/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_13SpringAOP/src/test/java/project/AOPtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_14adviceType/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_14adviceType/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_14adviceType/src/main/java/project/utils/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_14adviceType/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_14adviceType/src/test/java/project/AOPtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_15annocationAOP/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_15annocationAOP/src/main/java/project/service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_15annocationAOP/src/main/java/project/utils/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_15annocationAOP/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_15annocationAOP/src/test/java/project/AOPtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/java/project/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/java/project/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/java/project/utils/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/java/project/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_17accountxmlAOP/src/test/java/project/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_18jdbctemplate/src/main/java/project/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_18jdbctemplate/src/main/java/project/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_18jdbctemplate/src/main/java/project/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_18jdbctemplate/src/main/java/project/jdbctemplate/JdbcTemplateDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_18jdbctemplate/src/main/java/project/jdbctemplate/JdbcTemplateDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_18jdbctemplate/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_10account_annoioc_combinejunit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_10account_annoioc_combinejunit/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +87,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring_09account_annoioc_withoutxml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -116,6 +140,8 @@
       <workItem from="1581229940728" duration="23000" />
       <workItem from="1581230075795" duration="749000" />
       <workItem from="1581252044322" duration="334000" />
+      <workItem from="1581300581461" duration="910000" />
+      <workItem from="1581911168648" duration="73000" />
     </task>
     <servers />
   </component>
@@ -123,6 +149,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1581911246077">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581911246077" />
     <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1581252384574">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

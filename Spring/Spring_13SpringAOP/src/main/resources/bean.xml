@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--配置Spring的IoC，把service对象配置进来-->
+    <bean id="accountService" class="project.service.Impl.AccountServiceImpl"></bean>
+    <!--    Spring基于xml的AOP配置步骤
+            1.把通知bean也交给Spring管理
+            2.使用aop:config标签表明开始AOP配置
+            3.使用aop:aspect表明配置切面
+        -->
+    <!--    配置log类-->
+    <bean id="lgger" class="project.utils.Logger"></bean>
+
+    <!--    配置AOP-->
+    <aop:config>
+        <!--配置切面-->
+        <aop:aspect id="logAdvice" ref="lgger">
+            <!--建立通知的类型，并且建立通知方法和切入点方法的关联-->
+            <aop:before method="printLog"
+                        pointcut="execution(* project.service.Impl.*.*(..))"></aop:before>
+            <!--<aop:before method="printLog"
+                        pointcut="execution(* *..*.*(..))"></aop:before>-->
+        </aop:aspect>
+    </aop:config>
+</beans>
